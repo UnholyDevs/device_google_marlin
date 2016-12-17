@@ -603,6 +603,10 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.adm.buffering.ms=3
 
+# fingerprint sensor type
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.fingerprint=fpc
+
 # Vendor seccomp policy files for media components:
 PRODUCT_COPY_FILES += \
     device/google/marlin/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
