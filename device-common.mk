@@ -66,6 +66,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += fs_config_files \
                     fs_config_dirs
 
+# Update engine
+PRODUCT_PACKAGES += brillo_update_payload
+
 # For "make bacon" to work properly
 PRODUCT_PACKAGES += mksquashfsimage.sh \
                     imgdiff \
