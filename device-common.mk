@@ -84,6 +84,9 @@ PRODUCT_PACKAGES += fs_config_files \
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1
 
+# Update engine
+PRODUCT_PACKAGES += brillo_update_payload
+
 # For "make bacon" to work properly
 PRODUCT_PACKAGES += mksquashfsimage.sh \
 		    imgdiff \
