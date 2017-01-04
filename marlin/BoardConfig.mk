@@ -108,7 +108,7 @@ BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy/verizon
 endif
 BOARD_SECCOMP_POLICY += device/google/marlin/seccomp
 
-BOARD_EGL_CFG := device/google/marlin/egl.cfg
+BOARD_EGL_CFG := device/google/marlin/egl.cfgUntitled Folder
 
 # Inline kernel building
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
