@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common Unholy stuff.
 $(call inherit-product, vendor/unholy/products/common.mk)
 $(call inherit-product, vendor/unholy/products/marlin.mk)
+$(call inherit-product, vendor/unholy/configs/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
