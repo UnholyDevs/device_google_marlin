@@ -27,6 +27,10 @@ PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/marlin/overlay
 
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+  device/google/marlin/nexus.xml:system/etc/sysconfig/nexus.xml
+
 # display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=560
