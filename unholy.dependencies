@@ -1,0 +1,12 @@
+[
+  {
+     "repository":  "unholydevs/kernel_google_marlin",
+     "target_path": "kernel/google/marlin",
+     "branch":      "n7"
+  },
+  {
+     "repository":  "unholydevs/vendor_google_devices",
+     "target_path": "vendor/google_devices",
+     "branch":      "n7"
+   }
+]   
