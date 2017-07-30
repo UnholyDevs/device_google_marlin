@@ -1,5 +1,10 @@
 [
   {
+     "repository":  "UnholyDevs/device_google_contexthub",
+     "target_path": "device/google/contexthub",
+     "branch":      "n7"
+   },
+  {
      "repository":  "UnholyDevs/kernel_google_marlin",
      "target_path": "kernel/google/marlin",
      "branch":      "n7"
