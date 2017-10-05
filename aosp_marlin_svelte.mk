@@ -29,4 +29,6 @@ PRODUCT_MODEL := AOSP svelte on msm8996
 PRODUCT_MANUFACTURER := google
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
+TARGET_PREBUILT_KERNEL := device/google/marlin-kernel/Image.gz-dtb.svelte
+
 PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
