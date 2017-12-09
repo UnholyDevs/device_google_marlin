@@ -2,16 +2,16 @@
   {
      "repository":  "UnholyDevs/device_google_contexthub",
      "target_path": "device/google/contexthub",
-     "branch":      "o8"
+     "branch":      "o81"
    },
   {
      "repository":  "UnholyDevs/kernel_google_marlin",
      "target_path": "kernel/google/marlin",
-     "branch":      "o8"
+     "branch":      "o81"
   },
   {
      "repository":  "UnholyDevs/vendor_google_devices",
      "target_path": "vendor/google_devices",
-     "branch":      "o8"
+     "branch":      "o81"
    }
 ]   
