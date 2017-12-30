@@ -119,6 +119,8 @@ KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/google/marlin
 TARGET_KERNEL_CONFIG := unholy_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_KERNEL_APPEND_DTB := true
 
 BOARD_KERNEL_BASE        := 0x80000000
 BOARD_KERNEL_PAGESIZE    := 4096
@@ -183,9 +185,6 @@ CAMERA_DAEMON_NOT_PRESENT := true
 
 #TARGET_LDPRELOAD := libNimsWrap.so
 
-#TARGET_COMPILE_WITH_MSM_KERNEL := true
-
-TARGET_KERNEL_APPEND_DTB := true
 # Added to indicate that protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := false
 
