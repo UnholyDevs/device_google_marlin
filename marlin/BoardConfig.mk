@@ -203,8 +203,6 @@ TARGET_USE_MDTP := true
 TARGET_BOARD_KERNEL_HEADERS := device/google/marlin/kernel-headers
 
 -include vendor/google_devices/marlin/BoardConfigVendor.mk
-
--include vendor/google/marlin/BoardConfigVendor.mk
 # Build a separate vendor.img
 TARGET_COPY_OUT_VENDOR := vendor
 
